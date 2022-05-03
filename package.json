@@ -1,0 +1,20 @@
+{
+  "name": "taliwindcss-coffee-style",
+  "version": "1.0.0",
+  "description": "hoangphan.xyz",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "hoangphan.xyz",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "npm-git-install": "^0.3.0"
+  }
+}
